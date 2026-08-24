@@ -853,8 +853,8 @@ public static class GameRegistry
                 },
                 MainExecutable = @"Stalker2.exe".ToRelativePath(),
                 IconSource = "https://cdn2.steamgriddb.com/icon/a34609d742cf51368e2b466ad10ca6a8/32/256x256.png",    
-        }
-    }, 
+            }
+        }, 
         {
             Game.ModdingTools, new GameMetaData
             {
