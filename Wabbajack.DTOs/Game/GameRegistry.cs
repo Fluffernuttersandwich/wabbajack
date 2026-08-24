@@ -839,6 +839,22 @@ public static class GameRegistry
             }
         },
         {
+            Game.Stalker2, new GameMetaData
+            {
+                Game = Game.Stalker2,
+                MO2Name = "Stalker 2: Heart of Chornobyl",
+                NexusName = "stalker2heartofchornobyl",
+                NexusGameId = 6944,
+                MO2ArchiveName = "stalker2heartofchornobyl",
+                SteamIDs = [1643320],
+                RequiredFiles = new []
+                {
+                    @"Stalker2.exe".ToRelativePath(),
+                },
+                MainExecutable = @"Stalker2.exe".ToRelativePath()
+        }
+    }, 
+        {
             Game.ModdingTools, new GameMetaData
             {
                 Game = Game.ModdingTools,
