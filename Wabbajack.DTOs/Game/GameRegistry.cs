@@ -656,6 +656,22 @@ public static class GameRegistry
             }
         },
         {
+            Game.Stalker2, new GameMetaData
+            {
+                Game = Game.Stalker2,
+                NexusName = "stalker2heartofchornobyl",
+                NexusGameId = 6944,
+                MO2Name = "Stalker2",
+                MO2ArchiveName = "Stalker2",
+                SteamIDs = [1643320],
+                RequiredFiles = new []
+                {
+                    @"Stalker2\Binaries\Win64\Stalker2-Win64-Shipping.exe".ToRelativePath()
+                },
+                MainExecutable = @"Stalker2\Binaries\Win64\Stalker2-Win64-Shipping.exe".ToRelativePath(),
+            }
+        },
+        {
             Game.SevenDaysToDie, new GameMetaData
             {
                 Game = Game.SevenDaysToDie,
